@@ -24,8 +24,14 @@ After that, you should have all the needed files to compile and run the code.
 
 ### 2. To compile
 
-<!-- Descrição de como compilar -->
+```C
+gcc -fopenmp nrainhas.c -o nrainhas
+ ```
 
 ### 3. To run
-
-<!-- Descrição de como executar -->
+Use ./nrainhas N t, where N is the number of queens and t is the number of threads.
+```C
+./nrainhas 8 8
+./nrainhas 10 4
+./nrainhas N t
+```
