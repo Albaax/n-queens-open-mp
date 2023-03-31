@@ -35,3 +35,5 @@ Use ./nrainhas N t, where N is the number of queens and t is the number of threa
 ./nrainhas 10 4
 ./nrainhas N t
 ```
+### 4. Visualization of the solutions
+The lines that display the solutions (29 - 34) are commented because the print function reduces quite a lot the performance of the program. By uncommenting those lines the program shall display all the solutions for a given N integer of queens.
